@@ -31,5 +31,28 @@ This app uses a **Random Forest Classifier** trained on the [Water Potability da
 | `water_quality_model.pkl` | Trained machine learning model |
 | `requirements.txt` | Python dependencies for the app |
 | `README.md` | This file |
+| `Report` | 
+
+🌍 SDG Impact
+This project aligns with:
+
+SDG 3: Good Health and Well-being
+
+SDG 6: Clean Water and Sanitation
+
+By enabling early water quality screening using AI, this tool promotes access to safe drinking water.
+
+✨ Built With
+Python 🐍
+
+Scikit-learn
+
+Streamlit
+
+Pandas
+
+Joblib
+
+
 
 
