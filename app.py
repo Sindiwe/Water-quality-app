@@ -27,26 +27,9 @@ if st.button("Predict Potability"):
     result = "✅ Safe to Drink" if prediction[0] == 1 else "❌ Not Safe to Drink"
     st.success(f"Prediction: {result}")
 
-st.title("💧 Water Quality Predictor")
 
-with st.expander("ℹ️ About this App", expanded=True):
-    st.markdown("""
-    This AI-powered app predicts whether water is **safe to drink (potable)** based on its chemical characteristics.
 
-    ### 📌 What it Does
-    - Uses a trained machine learning model to classify water as **potable** or **not potable**
-    - Accepts user inputs for pH, turbidity, solids, etc.
-    - Returns an easy-to-read result (✅ or ❌)
+  
 
-    ### 🌍 SDG Alignment
-    - **SDG 3: Good Health and Well-being**
-    - **SDG 6: Clean Water and Sanitation**
-
-    ### 🤖 Powered By
-    - Python & Streamlit
-    - scikit-learn Random Forest Classifier
-    - Public dataset from [Kaggle](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
-
-    > 📣 *Note: This is a predictive tool and does not replace certified lab testing.*
-    """)
+   
 
